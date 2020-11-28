@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+.comments a {
+	text-decoration: none;
+}
+
+.comments ul li {
+	list-style: none;
+}
+
+.comments-inner {
+	padding: 66px 0 96px 0;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.comments-count {
+	margin: 0 auto 0 0;
+	font-size: 14px;
+	color: #b4ad9e;
+	font-family: Ubuntu,sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.comments-list {
+	margin-top: 30px;
+}
+
+.comments-item {
+	margin-top: 52px;
+	display: flex;
+	align-items: center;
+}
+
+.comments-item:first-child {
+	margin-top: 0;
+}
+
+.comments-item-text {
+	margin-left: 36px;
+}
+
+.comments-item-text-name {
+	font-size: 14px;
+	color: #626262;
+	font-family: "Playfair Display",serif;
+	font-weight: bold;
+}
+
+.comments-item-text-contents {
+	margin-top: 14px;
+	font-size: 14px;
+	color: #626262;
+	font-family: "Playfair Display",serif;
+}
+
+.comments-item-text-reply1 {
+	margin-top: 22px;
+}
+
+.comments-item-text-reply2 {
+	margin-top: 34px;
+}
+
+.comments-item-text-reply a {
+	font-size: 14px;
+	color: #b4ad9e;
+	font-family: "Ubuntu",sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.comments-form {
+	margin-top: 52px;
+	display: flex;
+	align-items: center;
+}
+
+.comments-form-wrap {
+	margin-left: 35px;
+	width: 100%;
+	height:  auto;
+}
+
+.comments-form-wrap input[type="text"]{
+	width: 100%;
+	height: 70px;
+	border: 1px solid #c8c8c8;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+
+.comments-form-wrap ::placeholder {
+	line-height: 70px;
+	padding-left: 35px;
+	font-size: 14px;
+	color: #c8c8c8;
+	font-family: Ubuntu,sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.comments-sns {
+	margin: 35px 0 0 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.comments-sns-title {
+	margin-right: 37px;
+	font-size: 14px;
+	color: #b4ad9e;
+	font-family: Ubuntu,sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.comments-sns-list {
+	display: flex;
+	align-items: center;
+}
+
+.comments-sns-item {
+	margin-right: 16px;
+}
+
+.comments-sns-item:last-child {
+	margin-right: 0;
+}
