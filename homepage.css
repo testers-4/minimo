@@ -198,7 +198,6 @@ input::-webkit-input-placeholder{
   width: 400px;
   height: 1px;
   background-color:#333333;
-  /* display:inline; */
   position:absolute;
 }
 
