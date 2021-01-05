@@ -1,0 +1,28 @@
+.pd-head-wrap {
+  margin: 0 150px  64px 150px;
+}
+
+.pd-head-category {
+  margin-bottom: 28px;
+  font-family: Ubuntu;
+  font-size: 0.87em;
+  color: #b4ad9e;
+}
+
+.pd-head-title {
+  margin-bottom: 44px;
+  font-family: Playfair Display;
+  font-size: 1.87em;
+  color: #626262;
+}
+
+.pd-head-txt {
+  line-height: 1.5;
+  font-family: Playfair Display;
+  font-size: 0.87em;
+  color: #626262;
+}
+
+.pd-head-txt span {
+  font-weight: bold;
+}
